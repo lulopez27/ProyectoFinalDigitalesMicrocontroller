@@ -1,0 +1,11 @@
+module ALUMux (input [1:0]sel,input[3:0] CMD,output [3:0] ALUIns)
+	always@(sel)
+	begin case(sel)
+		2'b00 :R = CMD;//R0
+		2'b01 :R = R1;//R1
+		2'b10 :R = R2;//R2
+		2'b11 :R = R3;//R3
+		default:R =R0;
+	endcase
+	end
+endmodule

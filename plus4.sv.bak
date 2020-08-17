@@ -1,0 +1,4 @@
+module plus4(input[31:0] PC,
+						output logic[31:0] PC4);
+	assign PC4 = PC + 32'h4;
+endmodule

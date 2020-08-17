@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at microprocessor.sv(6): object "PCSrc" differs only in case from object "PCsrc" in the same scope File: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/microprocessor.sv Line: 6
+Info (10281): Verilog HDL Declaration information at microprocessor.sv(6): object "MemToReg" differs only in case from object "MemtoReg" in the same scope File: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/microprocessor.sv Line: 6

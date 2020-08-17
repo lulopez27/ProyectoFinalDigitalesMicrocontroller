@@ -1,0 +1,43 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/dataMemory.v}
+vlog -vlog01compat -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circmssg.v}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot_ALU.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/XOR_N.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_file.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_32bit.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/processor_tb.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/plus4.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/PCreg.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/OR_N.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/NOT_N.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux4_31_3i.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux4_31.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux2_1.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/MUX_4_N.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/MUX_4_1.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/microprocessor.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/LSR_LSL_N.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/full1BitAdder.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/Flags.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/extend.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/deco4_16.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/deco4_4.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ControlUnit.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rotmod.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ASR_ASL_N.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALU_N_Bits.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ADD_SUB_N.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/FlagControl.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_4bit.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALU_COND_En.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALUMux.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/chipSelect.sv}
+vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/insmem.sv}
+

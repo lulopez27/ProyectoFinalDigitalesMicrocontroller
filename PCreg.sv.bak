@@ -1,0 +1,8 @@
+module PCreg#(N=10)
+	(input clk,rst,
+	input [N-1:0] PCin,
+	output logic [N-1:0] PCout);
+	always@(negedge clk or posedge rst)
+	if(rst) PCout = 32'hFFFFFFF9;
+	else PCout=PCin;
+endmodule

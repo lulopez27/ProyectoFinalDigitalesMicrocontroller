@@ -1,0 +1,18 @@
+`timescale 100 ms / 100 ms
+module processor_tb();
+	logic clk,rst;
+	microprocessor microDUT(clk,rst);
+	initial begin
+	clk=0;
+	rst=0;
+	#5
+	rst=1;
+	#5
+	rst=0;
+	end
+	always
+	#5 clk=!clk;
+endmodule
+//vlog -reportprogress 300 -work work C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final/processor_tb.sv
+//add wave -position end sim:/processor_tb/microDUT/instrmemory/*
+//run 10000ms

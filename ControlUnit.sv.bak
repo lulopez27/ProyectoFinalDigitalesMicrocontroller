@@ -1,0 +1,23 @@
+module ControlUnit(input[0:3] Cond, //condicional
+						input [0:1]OP,
+						input [0:5]Funct, //IPUBWL
+						input [0:3]RD,
+						input [0:3]ALUFlags,
+						output logic PCsrc,
+						output logic MemtoReg,
+						output logic MemWrite,
+						output [0:3]ALUControl,
+						output ALUSrc,
+						output [0:1]ImmSrc,
+						output RegWrite,
+						output [0:1]RegSrc);
+	assign MemtoReg = ~OP[1]&OP[0]&Funct[0];//When there is a LDR instruction, it is loaded from DataMem
+	assign MemWrite = ~OP[1]&OP[0]&~Funct[0];
+	deco4_4 ALUdeco(Funct,ALUControl);
+	assign PCsrc = OP[1]&~OP[0]|RegSrc[0]&RegWrite;
+	assign ALUSrc = ~(~OP[1]&~OP[0]&~Funct[5]);
+	assign ImmSrc = OP;
+	assign RegWrite = (~OP[0]&~OP[1])|(~OP[0]&OP[1]&Funct[0]);
+	assign RegSrc[0] = OP[1]&~OP[0];
+	assign RegSrc[1] = ~OP[1]&OP[0]&Funct[0];
+endmodule

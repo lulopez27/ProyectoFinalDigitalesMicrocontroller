@@ -1,0 +1,446 @@
+# ** Warning: (vish-14) Failed to open "C:\intelFPGA\19.1\modelsim_ase\win32aloem" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# ** Warning: (vsim-14) Failed to open "C:\intelFPGA\19.1\modelsim_ase\win32aloem" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# do Proyecto_Final2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# ** Warning: (vish-14) Failed to open "C:\intelFPGA\19.1\modelsim_ase\win32aloem" specified by the MODELSIM environment variable.
+# No such file or directory. (errno = ENOENT)
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/dataMemory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/dataMemory.v 
+# -- Compiling module dataMemory
+# 
+# Top level modules:
+# 	dataMemory
+# End time: 17:12:06 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circmssg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circmssg.v 
+# -- Compiling module circmssg
+# 
+# Top level modules:
+# 	circmssg
+# End time: 17:12:06 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot_ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot_ALU.sv 
+# -- Compiling module circ_rot_ALU
+# 
+# Top level modules:
+# 	circ_rot_ALU
+# End time: 17:12:06 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/XOR_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/XOR_N.sv 
+# -- Compiling module XOR_N
+# 
+# Top level modules:
+# 	XOR_N
+# End time: 17:12:06 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 17:12:06 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_32bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_32bit.sv 
+# -- Compiling module reg_32bit
+# 
+# Top level modules:
+# 	reg_32bit
+# End time: 17:12:06 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/processor_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/processor_tb.sv 
+# -- Compiling module processor_tb
+# 
+# Top level modules:
+# 	processor_tb
+# End time: 17:12:06 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/plus4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:06 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/plus4.sv 
+# -- Compiling module plus4
+# 
+# Top level modules:
+# 	plus4
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/PCreg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/PCreg.sv 
+# -- Compiling module PCreg
+# 
+# Top level modules:
+# 	PCreg
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/OR_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/OR_N.sv 
+# -- Compiling module OR_N
+# 
+# Top level modules:
+# 	OR_N
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/NOT_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/NOT_N.sv 
+# -- Compiling module NOT_N
+# 
+# Top level modules:
+# 	NOT_N
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux4_31_3i.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux4_31_3i.sv 
+# -- Compiling module mux4_31_3i
+# 
+# Top level modules:
+# 	mux4_31_3i
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux4_31.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux4_31.sv 
+# -- Compiling module mux4_31
+# 
+# Top level modules:
+# 	mux4_31
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux2_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/mux2_1.sv 
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	mux2_1
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/MUX_4_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/MUX_4_N.sv 
+# -- Compiling module MUX_4_N
+# 
+# Top level modules:
+# 	MUX_4_N
+# End time: 17:12:07 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/MUX_4_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:07 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/MUX_4_1.sv 
+# -- Compiling module MUX_4_1
+# 
+# Top level modules:
+# 	MUX_4_1
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/microprocessor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:08 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/microprocessor.sv 
+# -- Compiling module microprocessor
+# 
+# Top level modules:
+# 	microprocessor
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/LSR_LSL_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:08 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/LSR_LSL_N.sv 
+# -- Compiling module LSR_LSL_N
+# 
+# Top level modules:
+# 	LSR_LSL_N
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/full1BitAdder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:08 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/full1BitAdder.sv 
+# -- Compiling module full1BitAdder
+# 
+# Top level modules:
+# 	full1BitAdder
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/Flags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:08 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/Flags.sv 
+# -- Compiling module Flags
+# 
+# Top level modules:
+# 	Flags
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:08 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/deco4_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:08 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/deco4_16.sv 
+# -- Compiling module deco4_16
+# 
+# Top level modules:
+# 	deco4_16
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/deco4_4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:08 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/deco4_4.sv 
+# -- Compiling module deco4_4
+# 
+# Top level modules:
+# 	deco4_4
+# End time: 17:12:08 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ControlUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ControlUnit.sv 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 17:12:09 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rotmod.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rotmod.sv 
+# -- Compiling module circ_rotmod
+# 
+# Top level modules:
+# 	circ_rotmod
+# End time: 17:12:09 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv 
+# -- Compiling module circ_rot
+# 
+# Top level modules:
+# 	circ_rot
+# End time: 17:12:09 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ASR_ASL_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ASR_ASL_N.sv 
+# -- Compiling module ASR_ASL_N
+# 
+# Top level modules:
+# 	ASR_ASL_N
+# End time: 17:12:09 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALU_N_Bits.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALU_N_Bits.sv 
+# -- Compiling module ALU_N_Bits
+# 
+# Top level modules:
+# 	ALU_N_Bits
+# End time: 17:12:09 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ADD_SUB_N.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ADD_SUB_N.sv 
+# -- Compiling module ADD_SUB_N
+# 
+# Top level modules:
+# 	ADD_SUB_N
+# End time: 17:12:09 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/FlagControl.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/FlagControl.sv 
+# -- Compiling module FlagControl
+# 
+# Top level modules:
+# 	FlagControl
+# End time: 17:12:09 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_4bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:09 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/reg_4bit.sv 
+# -- Compiling module reg_4bit
+# 
+# Top level modules:
+# 	reg_4bit
+# End time: 17:12:10 on Aug 06,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALU_COND_En.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:10 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALU_COND_En.sv 
+# -- Compiling module ALU_COND_En
+# 
+# Top level modules:
+# 	ALU_COND_En
+# End time: 17:12:10 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALUMux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:10 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/ALUMux.sv 
+# -- Compiling module ALUMux
+# 
+# Top level modules:
+# 	ALUMux
+# End time: 17:12:10 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/chipSelect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:10 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/chipSelect.sv 
+# -- Compiling module chipSelect
+# 
+# Top level modules:
+# 	chipSelect
+# End time: 17:12:10 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2) {C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/insmem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:10 on Aug 06,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)" C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/insmem.sv 
+# -- Compiling module insmem
+# 
+# Top level modules:
+# 	insmem
+# End time: 17:12:10 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -L altera_mf_ver -L lpm_ver processor_tb
+# vsim -L altera_mf_ver -L lpm_ver processor_tb 
+# Start time: 17:12:16 on Aug 06,2020
+# Loading sv_std.std
+# Loading work.processor_tb
+# Loading work.microprocessor
+# Loading work.insmem
+# Loading work.reg_file
+# Loading work.deco4_16
+# Loading work.mux4_31
+# Loading work.reg_32bit
+# Loading work.ALU_N_Bits
+# Loading work.XOR_N
+# Loading work.ADD_SUB_N
+# Loading work.full1BitAdder
+# Loading work.circ_rot_ALU
+# Loading work.OR_N
+# Loading work.NOT_N
+# Loading work.LSR_LSL_N
+# Loading work.ASR_ASL_N
+# Loading work.MUX_4_N
+# Loading work.Flags
+# Loading work.extend
+# Loading work.circ_rot
+# Loading work.circ_rotmod
+# Loading work.mux4_31_3i
+# Loading work.dataMemory
+# Loading altera_mf_ver.altsyncram
+# Loading work.circmssg
+# Loading work.PCreg
+# Loading work.plus4
+# Loading work.mux2_1
+# Loading work.chipSelect
+# Loading work.ControlUnit
+# Loading work.deco4_4
+# Loading work.FlagControl
+# Loading work.reg_4bit
+# Loading work.ALUMux
+# Loading work.ALU_COND_En
+# Loading work.MUX_4_1
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/extend.sv(8): [PCDPC] - Port size (25) does not match connection size (24) for port 'I'. The port definition is at: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb/microDUT/extnd/circrot File: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv
+add wave -position end sim:/processor_tb/*
+add wave -position end  sim:/processor_tb/microDUT/currPC
+add wave -position end  sim:/processor_tb/microDUT/Instr
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: luisd  Hostname: DESKTOP-6I0S59P  ProcessID: 3712
+#           Attempting to use alternate WLF file "./wlftm59e3q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftm59e3q
+add wave -position end sim:/processor_tb/microDUT/dataMem/*
+run 100000ms
+add wave -position end  sim:/processor_tb/microDUT/regfile/R13
+restart
+# ** Warning: (vsim-3015) C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/extend.sv(8): [PCDPC] - Port size (25) does not match connection size (24) for port 'I'. The port definition is at: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb/microDUT/extnd/circrot File: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv
+run 10000ms
+run 10000ms
+
+run 10000ms
+
+run 10000ms
+run 10000ms
+
+run 10000ms
+run 10000ms
+run 10000ms
+add wave -position end  sim:/processor_tb/microDUT/regfile/R3
+restart
+# ** Warning: (vsim-3015) C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/extend.sv(8): [PCDPC] - Port size (25) does not match connection size (24) for port 'I'. The port definition is at: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /processor_tb/microDUT/extnd/circrot File: C:/Users/luisd/Documents/ProjectsFPGA/Proyecto_Final(2)/circ_rot.sv
+run 80000ms
+# End time: 18:43:25 on Aug 06,2020, Elapsed time: 1:31:09
+# Errors: 0, Warnings: 5

@@ -1,0 +1,22 @@
+module microprocessor(input clk,rst);
+	logic[31:0] Instr,ALUResult,RD1,RD2,ExtImm,Result,ReadData,SrcA,SrcB;
+	logic [31:0]nextPC,currPC,PC4,PC8;
+	logic[3:0]ALUControl,ALUFlags,A1,A2,A3;
+	logic [1:0]RegSrc,ImmSrc;
+	logic WE,PCSrc,MemToReg,MemWrite,ALUSrc,RegWrite;
+	instructionMemory instrmemory(currPC,clk,Instr);
+	reg_file regfile(clk,rst,A1,A2,A3,Result,PC8,RegWrite,RD1,RD2);
+	ALU_N_Bits #(32) ALU32(SrcA,SrcB,ALUControl,ALUResult,ALUFlags);
+	extend extnd(Instr[11:0],ImmSrc,ExtImm);
+	dataMemory dataMem(ALUResult,clk,RD2,WE,ReadData);
+	PCreg#(32) PC_reg(clk,rst,nextPC,currPC);
+	plus4 PCp4 (currPC,PC4);
+	plus4 PCp8 (PC4,PC8);
+	mux2_1 PCSrcMux(PCSrc,PC4,Result,nextPC);
+	mux2_1 MemToRegMux(MemToReg,ReadData,ALUResult,Result);
+	mux2_1 RegSrcMux(RegSrc[1],Instr[3:0],Instr[15:12],A2);
+	mux2_1 ALUSrcMux(ALUSrc,RD2,ExtImm,SrcB);
+	mux2_1 RegSrcMux2(RegSrc[0],Instr[19:16],4'd15,A1);
+	ControlUnit ctrlunit(Instr[31:28],Instr[27:26],Instr[25:20],Instr[15:12],ALUFlags,
+	PCSrc,MemToReg,MemWrite,ALUControl,ALUSrc,ImmSrc,RegWrite,RegSrc);
+endmodule

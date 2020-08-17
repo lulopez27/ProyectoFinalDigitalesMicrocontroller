@@ -1,0 +1,12 @@
+module mux4_31_3i(input [3:0] A,
+					input[31:0]circ,zero,extsign,
+					output logic[31:0] O);
+	always@(A or  circ or zero or extsign)
+	begin case(A)
+		4'd0 :O = circ;//rotcirc
+		4'd1 :O = zero;//addzeroes
+		4'd2 :O = extsign;//extsign
+		default:O =31'b0;
+	endcase
+	end
+endmodule

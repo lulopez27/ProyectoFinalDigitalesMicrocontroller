@@ -1,0 +1,14 @@
+module deco4_4(input [3:0] A,
+					output logic[3:0] R);
+	always@(A)
+	begin case(A)
+		4'b0000 : R = 4'b0010;//AND
+		4'b0001 : R = 4'b0101;//XOR
+		4'b0010 : R = 4'b0001;//SUB
+		4'b0100 : R = 4'b0000;//ADD
+		4'b1100 : R = 4'b0011;//ORR
+		4'b1111 : R = 4'b0100;//NOT
+		default : R = 4'b1111;//nothing
+	endcase
+	end
+endmodule

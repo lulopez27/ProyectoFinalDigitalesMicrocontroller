@@ -1,0 +1,14 @@
+module chipSelect(input [31:0] Address, output[12:0] RAM,[7:0] output ROM);
+always 
+	logic [7:0]oRom
+	output[12:0] RAM
+	
+	always@(posedge clk)
+	begin case(sel)
+		2'b00 :ALUIns = CMD;//CMD
+		2'b01 :ALUIns = 4'b0000;//ADD
+		2'b10 :ALUIns = 4'b0000;//ADD
+		default:ALUIns =4'b0000;
+	endcase
+	end
+endmodule
